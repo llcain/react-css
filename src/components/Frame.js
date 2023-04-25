@@ -8,8 +8,8 @@ class Frame extends React.Component {
     constructor(props) {
         super(props)
         this.state = {
-            name: null,
-            email: null
+            name: null
+            
         };
     };
 
@@ -17,8 +17,8 @@ class Frame extends React.Component {
         axios.get("https://pokeapi.co/api/v2/pokemon/")
         .then(response => {
             this.setState({
-                name: response.data.results.name,
-                url: response.data.results.url
+                name: response.data.results.name
+                
             })
             // console.log(response.data);
         })
@@ -36,12 +36,13 @@ class Frame extends React.Component {
     render() { 
         return (
             <>
+            <h2>{this.state.name}</h2>
             <div className='frame' data-bg-color="green">
                 <div className="description">
                     
-                    Clique sur l'image pour entendre le nom
-                    <img alt="pokemon" src={this.state.url}/>
-                    <h2>{this.state.name}</h2>
+                    Clique 
+                    
+                    
                 </div>
                 
             
