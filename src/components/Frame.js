@@ -17,7 +17,7 @@ class Frame extends React.Component {
         axios.get("https://pokeapi.co/api/v2/pokemon/")
         .then(response => {
             this.setState({
-                name: response.data.results.name
+                name: response.data.results.id.name
                 
             })
             // console.log(response.data);
