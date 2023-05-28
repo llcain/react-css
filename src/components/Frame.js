@@ -1,10 +1,16 @@
-import React  from "react";
+import React, { useState }  from "react";
 // import axios from "axios";
+
 
 
 class Frame extends React.Component {
     
-
+    constructor(props) {
+        super(props);
+        this.state = {
+            count: 0
+        };
+    }
     
 
     // constructor(props) {
@@ -38,9 +44,10 @@ class Frame extends React.Component {
     render() { 
         return (
             <>
-            <div className="frame-container">
-                <h1>Frame Container</h1>
-            </div>
+            <p>You clicked {this.state.count} times</p>
+        <button onClick={() => this.setState({ count: this.state.count + 1 })}>
+          Click me
+        </button>
             
             </>
         );
