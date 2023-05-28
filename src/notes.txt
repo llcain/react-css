@@ -1,2 +1,4 @@
 Google - react fragment -  https://legacy.reactjs.org/docs/fragments.html
 Google - https://stackoverflow.com/questions/60961065/unable-to-use-usestate-in-class-component-react-js - usestate class component react
+https://legacy.reactjs.org/docs/hooks-state.html - https://programmingwithmosh.com/react/guide-to-learn-useeffect-hook-in-react/
+Google - react hooks - what r they? - https://react.dev/learn - https://react.dev/learn - https://legacy.reactjs.org/docs/hooks-intro.html
