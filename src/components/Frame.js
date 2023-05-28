@@ -1,7 +1,9 @@
 import React  from "react";
 // import axios from "axios";
 
+
 class Frame extends React.Component {
+    
 
     
 
@@ -36,12 +38,8 @@ class Frame extends React.Component {
     render() { 
         return (
             <>
-            <h1>Using axios to get Pokemon Data </h1>
-            <div>
-                <b>Pickashu is number 25</b><br/>
-                Please Enter an ID:
-                <input type="number" className="pokemon-input"></input>
-            </div>
+            <h1>Frame</h1>
+            
             </>
         );
     }
