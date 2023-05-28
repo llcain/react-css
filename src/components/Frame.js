@@ -38,7 +38,9 @@ class Frame extends React.Component {
     render() { 
         return (
             <>
-            <h1>Frame</h1>
+            <div className="frame-container">
+                <h1>Frame Container</h1>
+            </div>
             
             </>
         );
