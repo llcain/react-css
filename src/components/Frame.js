@@ -1,31 +1,31 @@
 import React  from "react";
-import axios from "axios";
+// import axios from "axios";
 
 class Frame extends React.Component {
 
     
 
-    constructor(props) {
-        super(props)
-        this.state = {
-            name: null
+    // constructor(props) {
+    //     super(props)
+    //     this.state = {
+    //         name: null
             
-        };
-    };
+    //     };
+    // };
 
-    componentDidMount() {
-        axios.get("https://pokeapi.co/api/v2/pokemon/")
-        .then(response => {
-            this.setState({
-                name: response.data.results.id.name
+    // componentDidMount() {
+    //     axios.get("https://pokeapi.co/api/v2/pokemon/")
+    //     .then(response => {
+    //         this.setState({
+    //             name: response.data.results.id.name
                 
-            })
-            // console.log(response.data);
-        })
-        .catch(error => {
-            console.log(error);
-        });
-    };
+    //         })
+    //         // console.log(response.data);
+    //     })
+    //     .catch(error => {
+    //         console.log(error);
+    //     });
+    // };
 
     // const getPokemonSpecies = async (PokemonNumber) => 
     // fetch(`https://pokeapi.co/api/v2/pokemon-species/${PokemonNumber}/`)
@@ -36,16 +36,11 @@ class Frame extends React.Component {
     render() { 
         return (
             <>
-            <h2>{this.state.name}</h2>
-            <div className='frame' data-bg-color="green">
-                <div className="description">
-                    
-                    Clique 
-                    
-                    
-                </div>
-                
-            
+            <h1>Using axios to get Pokemon Data </h1>
+            <div>
+                <b>Pickashu is number 25</b><br/>
+                Please Enter an ID:
+                <input type="number" className="pokemon-input"></input>
             </div>
             </>
         );

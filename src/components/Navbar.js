@@ -10,9 +10,9 @@ class Navbar extends React.Component {
                     CSS
                 </div>
                 <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Contact</li>
+                    <li className='list-item'>Home</li>
+                    <li className='list-item'>About</li>
+                    <li className='list-item'>Contact</li>
                 </ul>
             </div>
             </>
