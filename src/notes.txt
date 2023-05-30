@@ -2,3 +2,4 @@ Google - react fragment -  https://legacy.reactjs.org/docs/fragments.html
 Google - https://stackoverflow.com/questions/60961065/unable-to-use-usestate-in-class-component-react-js - usestate class component react
 https://legacy.reactjs.org/docs/hooks-state.html - https://programmingwithmosh.com/react/guide-to-learn-useeffect-hook-in-react/
 Google - react hooks - what r they? - https://react.dev/learn - https://react.dev/learn - https://legacy.reactjs.org/docs/hooks-intro.html
+https://www.w3schools.com/react/showreact.asp?filename=demo2_react_css_inline_object - setstate in class component in react - https://www.w3schools.com/react/react_state.asp#:~:text=To%20change%20a%20value%20in,the%20new%20value(s).
