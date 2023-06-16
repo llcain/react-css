@@ -12,7 +12,7 @@ class Gallery extends React.Component {
         return (
             <>
                 <h1>Clouds</h1>
-                <div className="container">
+                <div className="gallery-container">
                     <img src={Cloud1} alt="Cloud 1"/>
                     <img src={Cloud2} alt="Cloud 2"/>
                     <img src={Cloud3} alt="Cloud 3"/>

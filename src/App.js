@@ -1,5 +1,6 @@
 import './Frame.css';
 import './App.css';
+import './Gallery.css';
 
 import Footer from './components/Footer';
 import Frame from './components/Frame';
