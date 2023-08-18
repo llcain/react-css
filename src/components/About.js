@@ -6,7 +6,15 @@ class About extends React.Component {
         return (
             <>
                 <section className='wrapper-container'>
-                    
+                    <h1>About Page</h1>
+
+                    <section className='section-container'> 
+                        <h2>About Section</h2>
+                        <div className="left">
+                            
+                        </div>
+                        <div className="right"></div>
+                    </section>
                 </section>
             </>
         );
