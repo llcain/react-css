@@ -8,15 +8,15 @@ class About extends React.Component {
         return (
             <>
                 <section className='wrapper-container'>
-                    <h1>About Page</h1>
+                   <h2>About Me!</h2>
 
                     <section className='section-container'> 
-                        <h2>About Section</h2>
+                        
                         <div className="left">
-                            <img src={Sunset1} alt="Sunset photo 1"/>
+                            <img src={Sunset1} alt="Sunset 1"/>
                         </div>
                         <div className="right">
-                        <img src={Sunset2} alt="Sunset photo 2"/>
+                        <img src={Sunset2} alt="Sunset 2"/>
                         </div>
                     </section>
                 </section>
