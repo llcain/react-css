@@ -32,8 +32,8 @@ class Users extends React.Component {
     render() { 
         return (
             <>
-            <span>{this.state.name}</span>
-                <br/>
+            <span style={{color: "white", fontsize: "20px"}}>{this.state.name}</span>
+                
                 <span>{this.state.email}</span>
             </>
         );
