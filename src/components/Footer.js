@@ -14,7 +14,6 @@ class Footer extends React.Component {
             <>
             <div className='footer'>
                 <h1 style={this.state}>Created by LaQuisha Cain</h1>
-                <p>This is a React App practice</p>
             </div>
             </>
         );

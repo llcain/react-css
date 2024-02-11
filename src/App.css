@@ -20,3 +20,8 @@ h1 {
 .logo {
   font-size: 30px;
 }
+
+.footer {
+  padding: 20px;
+  margin: 50px;
+}
