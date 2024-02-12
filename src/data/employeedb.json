@@ -1,0 +1,29 @@
+{
+    "employees": [
+        {
+            "id": 1,
+            "name": "Tim",
+            "position": "platemaker"
+        },
+        {
+            "id": 2,
+            "name": "Tony",
+            "position": "pressman"
+        },
+        {
+            "id": 3,
+            "name": "Iola",
+            "position": "secratary"
+        },
+        {
+            "id": 4,
+            "name": "Brad",
+            "position": "manager"
+        },
+        {
+            "id": 5,
+            "name": "Katty",
+            "position": "platemaker"
+        }
+    ]
+}
