@@ -4,7 +4,8 @@ import Sunset2 from "../images/sunset2.jpg";
 
 class About extends React.Component {
      
-    render() { 
+    render() {
+        const books = ["Sunrise", "Moonstruck", "Rainfall"];
         return (
             <>
                 <section className='wrapper-container'>
@@ -18,6 +19,11 @@ class About extends React.Component {
                         <div className="right">
                         <img src={Sunset2} alt="Sunset 2"/>
                         </div>
+                        <ul>
+                            {books.map(item => (
+                                <li key={item}>{item}</li>
+                            ))}
+                        </ul>
                     </section>
                 </section>
             </>
