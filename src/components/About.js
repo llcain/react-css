@@ -1,6 +1,5 @@
 import React from 'react';
-import Sunset1 from "../images/sunset1.jpg";
-import Sunset2 from "../images/sunset2.jpg";
+
 
 class About extends React.Component {
      
@@ -13,12 +12,7 @@ class About extends React.Component {
 
                     <section className='section-container'> 
                         
-                        <div className="left">
-                            <img src={Sunset1} alt="Sunset 1"/>
-                        </div>
-                        <div className="right">
-                        <img src={Sunset2} alt="Sunset 2"/>
-                        </div>
+                       
                         <ul>
                             {books.map(item => (
                                 <li key={item}>{item}</li>

@@ -10,7 +10,7 @@ h1 {
 .container {
   display: flex;
   background-color: blueviolet;
-  width: 70%;
+  width: 50%;
   align-items: center;
   justify-content: space-around;
   margin: auto;

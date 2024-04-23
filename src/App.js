@@ -1,4 +1,4 @@
-import './Frame.css';
+
 import './App.css';
 import './Gallery.css';
 import './About.css';
