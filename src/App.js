@@ -7,6 +7,7 @@ import Footer from './components/Footer';
 import Navbar from './components/Navbar';
 import Gallery from './components/Gallery';
 import About from './components/About';
+import Grid from './components/Grid';
 
 function App() {
   const title = "Welcome to the new blog.";
@@ -16,6 +17,7 @@ function App() {
         <h1>{ title }</h1>
       <Navbar />
       <About />
+      <Grid />
       <Gallery />
       <Footer />
       </div>
